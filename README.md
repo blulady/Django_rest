@@ -7,7 +7,7 @@ I created a permissions.py file to custom define object level permissions in the
 I also makee use of the `ReadOnlyModelViewSet` class from Django Rest Framework's viewsets to create the read only views. Then multiple views are created from each ViewSet class by binding the HTTP methods to the action for each view and registering them with the URL conf utilizing `format_suffix_patterns` to add provide an endpoint for the API.<br>
 The tutorial uses the browsable API so you can login and create snippets in the browser.<br><br>
 http responces
-![image](https://user-images.githubusercontent.com/67162265/165794613-47070456-b5db-406d-baad-ddc52abe3ff4.png)
+![image](https://user-images.githubusercontent.com/67162265/165794613-47070456-b5db-406d-baad-ddc52abe3ff4.png) <br>
 browsable API
 ![image](https://user-images.githubusercontent.com/67162265/165794847-2495d397-e2e8-4608-8515-8e2618503f02.png)
 logged into browsable API
