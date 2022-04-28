@@ -1,7 +1,6 @@
 from snippets.permissions import IsOwnerOrReadOnly
 from snippets.models import Snippet
 from snippets.serializers import SnippetSerializer
-from rest_framework import generics
 from django.contrib.auth.models import User
 from snippets.serializers import UserSerializer
 from rest_framework.decorators import api_view
@@ -17,7 +16,6 @@ class SnippetViewSet(viewsets.ModelViewSet):
     """
     This viewset automatically provides `list`, `create`, `retrieve`,
     `update` and `destroy` actions.
-
     Additionally we also provide an extra `highlight` action.
     """
     queryset = Snippet.objects.all()
