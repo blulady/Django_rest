@@ -12,7 +12,7 @@ browsable API
 ![image](https://user-images.githubusercontent.com/67162265/165794847-2495d397-e2e8-4608-8515-8e2618503f02.png)
 logged into browsable API
 ![image](https://user-images.githubusercontent.com/67162265/165795321-16b70b6c-7a1e-4a8c-9f8d-ffd2d811d155.png)
-choising data format
+choosing data format
 ![image](https://user-images.githubusercontent.com/67162265/165796110-b1649b8a-edab-4285-9459-1b07f2405840.png)
 data in API format
 ![image](https://user-images.githubusercontent.com/67162265/165796710-594bb349-31e5-419a-a67d-e3b7cb9f390a.png)
